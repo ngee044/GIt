@@ -671,7 +671,7 @@ CASE::DecodeASE(FILE *fp)
 	return S_OK;
 }
 
-#if 1
+#if 0
 void CASE::ReadGEOMOBJECT(FILE *pf)
 {
 	char tmpstr[256];
