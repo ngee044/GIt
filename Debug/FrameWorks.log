@@ -1,0 +1,164 @@
+﻿  CAseParser.cpp
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(132): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(205): note: 'fopen' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(151): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(167): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(181): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(185): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(190): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(195): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(221): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(224): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(237): warning C4474: 'sscanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(237): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(237): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(241): warning C4474: 'sscanf' : 서식 문자열에 전달된 인수가 너무 많습니다.
+  c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(241): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 1개 필요하지만 2개가 제공되었습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(241): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(248): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(260): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(282): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(284): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(286): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(293): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(296): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(302): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(313): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(316): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(322): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(336): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(339): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(345): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(357): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(360): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(365): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(379): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(385): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(389): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(393): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(397): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(403): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(411): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(428): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(430): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(432): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(434): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(436): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(438): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(440): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(442): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(461): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(465): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(472): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(489): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(496): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(511): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(553): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(597): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(608): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(615): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(619): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 'strcpy' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(644): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(653): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(686): error C2039: 'm_NodeName': 'Mesh'의 멤버가 아닙니다.
+  c:\users\administrator\desktop\c\ase_parser_답\scframe\cmesh.h(1): note: 'Mesh' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(686): error C3861: 'ReadFileName': 식별자를 찾을 수 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(692): error C2039: 'm_parentsName': 'Mesh'의 멤버가 아닙니다.
+  c:\users\administrator\desktop\c\ase_parser_답\scframe\cmesh.h(1): note: 'Mesh' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(692): error C3861: 'ReadFileName': 식별자를 찾을 수 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(693): error C2039: 'm_bParents': 'Mesh'의 멤버가 아닙니다.
+  c:\users\administrator\desktop\c\ase_parser_답\scframe\cmesh.h(1): note: 'Mesh' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(699): error C3861: 'ReadTM': 식별자를 찾을 수 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(705): error C3861: 'ReadMESH': 식별자를 찾을 수 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(711): error C2039: 'm_iMeterial_Ref': 'Mesh'의 멤버가 아닙니다.
+  c:\users\administrator\desktop\c\ase_parser_답\scframe\cmesh.h(1): note: 'Mesh' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(724): error C2039: 'm_sAnimation': 'Mesh'의 멤버가 아닙니다.
+  c:\users\administrator\desktop\c\ase_parser_답\scframe\cmesh.h(1): note: 'Mesh' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(724): error C3861: 'ReadAnimation': 식별자를 찾을 수 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(729): error C2143: 구문 오류: ')'이(가) 'break' 앞에 없습니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(682): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(711): warning C4473: 'sscanf': 서식 문자열에 대한 인수가 충분하게 전달되지 않았습니다.
+  c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(711): note: 자리 표시자 및 해당 매개 변수에는 variadic 인수가 2개 필요하지만 1개가 제공되었습니다.
+  c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(711): note: 누락된 variadic 인수 2이(가) 서식 문자열 '%d'에 필요합니다.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(711): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(743): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\aseparser\caseparser.cpp(776): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2254): note: 'sscanf' 선언을 참조하십시오.
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CDefine.cpp
+  코드를 생성하고 있습니다...
+  컴파일하고 있습니다...
+  CGameMyApp.cpp
+c:\users\administrator\desktop\c\ase_parser_답\cgamemyapp.cpp(34): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1769): note: 'sprintf' 선언을 참조하십시오.
+c:\users\administrator\desktop\c\ase_parser_답\cgamemyapp.cpp(94): warning C4244: '초기화 중': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+c:\users\administrator\desktop\c\ase_parser_답\cgamemyapp.cpp(118): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  CSprite.cpp
+  CMesh.cpp
+  CGameApp.cpp
+  CFont.cpp
+  CCamera.cpp
+  CGeom.cpp

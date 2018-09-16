@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ASEParser">
+      <UniqueIdentifier>{e00f5a4f-939b-43fe-ae28-e93978a0d272}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SCFrame">
+      <UniqueIdentifier>{7a8c1ca0-ac8d-4d33-9979-1cd5bf923725}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ASEParser\CAseParser.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEParser\CDefine.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEParser\CGeom.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="ASEParser\CMesh.cpp">
+      <Filter>ASEParser</Filter>
+    </ClCompile>
+    <ClCompile Include="SCFrame\CCamera.cpp">
+      <Filter>SCFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SCFrame\CFont.cpp">
+      <Filter>SCFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SCFrame\CGameApp.cpp">
+      <Filter>SCFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SCFrame\CMesh.cpp">
+      <Filter>SCFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="SCFrame\CSprite.cpp">
+      <Filter>SCFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameMyApp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ASEParser\CAseParser.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParser\CDefine.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParser\CGeom.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="ASEParser\CMesh.h">
+      <Filter>ASEParser</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\CCamera.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\CFont.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\CGameApp.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\CMesh.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\CSprite.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="SCFrame\header.h">
+      <Filter>SCFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameMyApp.h" />
+  </ItemGroup>
+</Project>
