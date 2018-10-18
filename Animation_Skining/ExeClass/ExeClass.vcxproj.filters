@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{a9d139d6-64df-461f-9c54-9c6d5172dd1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main\CharacterClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\D3DFrame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MainFrame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Renderer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\TextureContainer.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\WIndowFrame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\KeyMgr.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\Camera.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\MapClass.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main\ASE.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Main\CharacterClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\D3DFrame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Main.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\MainFrame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Renderer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\TextureContainer.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\TypeHead.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\WindowFrame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\KeyMgr.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Common.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\Camera.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\MapClass.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Main\ASE.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

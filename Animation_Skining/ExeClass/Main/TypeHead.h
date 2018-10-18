@@ -1,0 +1,3 @@
+#pragma once
+
+enum MAPTYPE {MAPBLOCK, MYBLOCK, YOUBLOCK};

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{f32346fa-9c72-4896-aadd-cc02af4bdaa0}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="docu">
+      <UniqueIdentifier>{08ac5694-4a38-4eb4-a70d-c7d3290cbac4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Write">
+      <UniqueIdentifier>{c2a85dc6-f7c5-4d42-8072-bab2e779223b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BasicExcel.cpp">
+      <Filter>Write</Filter>
+    </ClCompile>
+    <ClCompile Include="Examples.cpp">
+      <Filter>Write</Filter>
+    </ClCompile>
+    <ClCompile Include="ExcelFormat.cpp">
+      <Filter>Write</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BasicExcel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExcelFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="docu\codeproject_ExcelFormat.html">
+      <Filter>docu</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="docu\ExcelFormat\ExcelFormat.png">
+      <Filter>docu</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
