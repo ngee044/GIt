@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BingoCnt - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/BingoCnt.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\BingoCnt.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP122.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/BingoCnt.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\BingoCnt.cpp"
+"F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\BingoCntDlg.cpp"
+"F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\DlgConnect.cpp"
+"F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\SocCom.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP122.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP123.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/BingoCnt.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\3-2장 네트웍 빙고\BingoCnt\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP123.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP124.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/BingoCnt.pdb" /machine:I386 /out:"Release/BingoCnt.exe" 
+".\Release\BingoCnt.obj"
+".\Release\BingoCntDlg.obj"
+".\Release\DlgConnect.obj"
+".\Release\SocCom.obj"
+".\Release\StdAfx.obj"
+".\Release\BingoCnt.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP124.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+BingoCnt.cpp
+BingoCntDlg.cpp
+DlgConnect.cpp
+SocCom.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+BingoCnt.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

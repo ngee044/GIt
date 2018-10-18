@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ChatServer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/ChatServer.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\ChatServer.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChatServer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\ChatServer.cpp"
+"F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\ChatServerDlg.cpp"
+"F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\SocCom.cpp"
+"F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\SocServer.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE0.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ChatServer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\2-3장 채팅\2-4ChatServer\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE1.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ChatServer.pdb" /machine:I386 /out:"Release/ChatServer.exe" 
+".\Release\ChatServer.obj"
+".\Release\ChatServerDlg.obj"
+".\Release\SocCom.obj"
+".\Release\SocServer.obj"
+".\Release\StdAfx.obj"
+".\Release\ChatServer.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPE2.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ChatServer.cpp
+ChatServerDlg.cpp
+SocCom.cpp
+SocServer.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ChatServer.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

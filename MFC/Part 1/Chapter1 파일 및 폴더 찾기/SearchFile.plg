@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SearchFile - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/SearchFile.res" /d "NDEBUG" /d "_AFXDLL" "E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\SearchFile.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SearchFile.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\FileFindEx.cpp"
+"E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\ListCtrlEx.cpp"
+"E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\SearchFile.cpp"
+"E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\SearchFileDlg.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP5.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP6.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SearchFile.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\책(vc++)\프로그램\Chapter 1\1-1장 파일 및 폴더 찾기\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP6.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP7.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/SearchFile.pdb" /machine:I386 /out:"Release/SearchFile.exe" 
+".\Release\FileFindEx.obj"
+".\Release\ListCtrlEx.obj"
+".\Release\SearchFile.obj"
+".\Release\SearchFileDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\SearchFile.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP7.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+FileFindEx.cpp
+ListCtrlEx.cpp
+SearchFile.cpp
+SearchFileDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SearchFile.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

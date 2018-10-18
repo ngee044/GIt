@@ -1,0 +1,54 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Editor - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/Editor.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\1-3장 에디터 프로그램\Editor.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP58.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Editor.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-3장 에디터 프로그램\Editor.cpp"
+"F:\책(vc++)\프로그램\1-3장 에디터 프로그램\EditorDoc.cpp"
+"F:\책(vc++)\프로그램\1-3장 에디터 프로그램\EditorView.cpp"
+"F:\책(vc++)\프로그램\1-3장 에디터 프로그램\MainFrm.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP58.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP59.tmp" with contents
+[
+/nologo /MD /W3 /GX /Zi /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Editor.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-3장 에디터 프로그램\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP59.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP5A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Editor.pdb" /debug /machine:I386 /out:"Release/Editor.exe" 
+".\Release\Editor.obj"
+".\Release\EditorDoc.obj"
+".\Release\EditorView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\Editor.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP5A.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Editor.cpp
+EditorDoc.cpp
+EditorView.cpp
+MainFrm.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Editor.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

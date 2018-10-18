@@ -1,0 +1,93 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: DataManager - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/DataManager.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\DataManager.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP2.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/DataManager.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\Caption.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\DaoTables.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\DataManager.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\DataManagerDoc.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\DataManagerView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\FieldInfoView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\font.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\LeftContainerView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\ListCtrlEx.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\MainFrm.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\msflexgrid.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\picture.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\QueryView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\ResultView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\RightContainerView.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\rowcursor.cpp"
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\SplitterWndEx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP2.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/DataManager.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\3-3장 데이터베이스 관리자\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP3.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP4.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/DataManager.pdb" /machine:I386 /out:"Release/DataManager.exe" 
+".\Release\Caption.obj"
+".\Release\DaoTables.obj"
+".\Release\DataManager.obj"
+".\Release\DataManagerDoc.obj"
+".\Release\DataManagerView.obj"
+".\Release\FieldInfoView.obj"
+".\Release\font.obj"
+".\Release\LeftContainerView.obj"
+".\Release\ListCtrlEx.obj"
+".\Release\MainFrm.obj"
+".\Release\msflexgrid.obj"
+".\Release\picture.obj"
+".\Release\QueryView.obj"
+".\Release\ResultView.obj"
+".\Release\RightContainerView.obj"
+".\Release\rowcursor.obj"
+".\Release\SplitterWndEx.obj"
+".\Release\StdAfx.obj"
+".\Release\DataManager.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP4.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Caption.cpp
+DaoTables.cpp
+DataManager.cpp
+DataManagerDoc.cpp
+DataManagerView.cpp
+FieldInfoView.cpp
+font.cpp
+LeftContainerView.cpp
+ListCtrlEx.cpp
+MainFrm.cpp
+msflexgrid.cpp
+picture.cpp
+QueryView.cpp
+ResultView.cpp
+RightContainerView.cpp
+rowcursor.cpp
+SplitterWndEx.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+DataManager.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: FileTam - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/FileTam.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\1-4장 미니 탐색기\FileTam.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP66.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FileTam.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\DlgFolder.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\FileFindEx.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\FileTam.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\FileTamDoc.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\FileView.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\FolderView.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\MainFrm.cpp"
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\SystemImageList.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP66.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP67.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/FileTam.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-4장 미니 탐색기\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP67.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/FileTam.pdb" /machine:I386 /out:"Release/FileTam.exe" 
+".\Release\DlgFolder.obj"
+".\Release\FileFindEx.obj"
+".\Release\FileTam.obj"
+".\Release\FileTamDoc.obj"
+".\Release\FileView.obj"
+".\Release\FolderView.obj"
+".\Release\MainFrm.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemImageList.obj"
+".\Release\FileTam.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP68.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+DlgFolder.cpp
+FileFindEx.cpp
+FileTam.cpp
+FileTamDoc.cpp
+FileView.cpp
+FolderView.cpp
+MainFrm.cpp
+SystemImageList.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+FileTam.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

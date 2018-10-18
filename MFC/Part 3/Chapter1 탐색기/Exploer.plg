@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Exploer - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Release/Exploer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\책(vc++)\프로그램\Part 3\Chapter1 탐색기\DirView.cpp"
+"E:\책(vc++)\프로그램\Part 3\Chapter1 탐색기\ExploerDoc.cpp"
+"E:\책(vc++)\프로그램\Part 3\Chapter1 탐색기\MainFrm.cpp"
+"E:\책(vc++)\프로그램\Part 3\Chapter1 탐색기\FileName.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP23.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/Exploer.pdb" /machine:I386 /out:"Release/Exploer.exe" 
+".\Release\DirView.obj"
+".\Release\Exploer.obj"
+".\Release\ExploerDoc.obj"
+".\Release\ExploerView.obj"
+".\Release\MainFrm.obj"
+".\Release\ShellProc.obj"
+".\Release\StdAfx.obj"
+".\Release\Exploer.res"
+".\Release\FileName.obj"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한~1.KEY\LOCALS~1\Temp\RSP24.tmp""
+<h3>Output Window</h3>
+Compiling...
+DirView.cpp
+ExploerDoc.cpp
+MainFrm.cpp
+FileName.cpp
+Generating Code...
+Linking...
+DirView.obj : error LNK2001: unresolved external symbol "public: class CExploerDoc * __thiscall CDirView::GetDocument(void)" (?GetDocument@CDirView@@QAEPAVCExploerDoc@@XZ)
+Release/Exploer.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Exploer.exe - 2 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

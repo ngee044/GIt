@@ -1,0 +1,75 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: TipManager - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Debug/TipManager.res" /d "_DEBUG" /d "_AFXDLL" "C:\MFC\증보판\팁관리기\TipManager\TipManager.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TipManager.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\MFC\증보판\팁관리기\TipManager\Caption.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\ContainerView.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\MainFrm.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\ProcessDlg.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\SearchDlg.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\SearchView.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\SplitterWndEx.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\TipManager.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\TipManagerDoc.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\TipManagerView.cpp"
+"C:\MFC\증보판\팁관리기\TipManager\TipView.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/TipManager.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\MFC\증보판\팁관리기\TipManager\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33D.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33E.tmp" with contents
+[
+user32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TipManager.pdb" /debug /machine:I386 /out:"Debug/TipManager.exe" /pdbtype:sept 
+".\Debug\Caption.obj"
+".\Debug\ContainerView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\ProcessDlg.obj"
+".\Debug\SearchDlg.obj"
+".\Debug\SearchView.obj"
+".\Debug\SplitterWndEx.obj"
+".\Debug\StdAfx.obj"
+".\Debug\TipManager.obj"
+".\Debug\TipManagerDoc.obj"
+".\Debug\TipManagerView.obj"
+".\Debug\TipView.obj"
+".\Debug\TipManager.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP33E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Caption.cpp
+ContainerView.cpp
+MainFrm.cpp
+ProcessDlg.cpp
+SearchDlg.cpp
+SearchView.cpp
+SplitterWndEx.cpp
+TipManager.cpp
+TipManagerDoc.cpp
+TipManagerView.cpp
+TipView.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+TipManager.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

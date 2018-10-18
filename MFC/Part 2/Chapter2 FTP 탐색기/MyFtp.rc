@@ -1,0 +1,381 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 18, 1\r\n"
+    "#pragma code_page(949)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\MyFtp.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.kor\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.kor\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\MyFtp.ico"
+IDR_MYFTPTYPE           ICON    DISCARDABLE     "res\\MyFtpDoc.ico"
+IDI_ICON_ADDFTP         ICON    DISCARDABLE     "res\\icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDB_STSTUS              BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  60, 50
+BEGIN
+    BUTTON      ID_CONNECT
+    BUTTON      ID_DISCONNECT
+    SEPARATOR
+    BUTTON      ID_UPLOAD
+    BUTTON      ID_DOWNLOAD
+    SEPARATOR
+    BUTTON      ID_EXIT
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "파일(&F)"
+    BEGIN
+        MENUITEM "접속(&C)",                    ID_CONNECT
+        MENUITEM "접속해제(&D)",                ID_DISCONNECT
+        MENUITEM SEPARATOR
+        MENUITEM "종료(&E)",                    ID_EXIT
+    END
+    POPUP "전송(&T)"
+    BEGIN
+        MENUITEM "업로드(&U)",                  ID_UPLOAD
+        MENUITEM "다운로드(&D)",                ID_DOWNLOAD
+    END
+    POPUP "도움말(&H)"
+    BEGIN
+        MENUITEM "MyFtp 정보(&A)...",           ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "MyFtp 정보"
+FONT 9, "굴림"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "MyFtp 버전 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2001",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "확인",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_DIALOG_CONNECT DIALOG DISCARDABLE  0, 0, 187, 257
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "서버연결"
+FONT 9, "굴림"
+BEGIN
+    PUSHBUTTON      "취  소",IDCANCEL,145,238,39,16
+    GROUPBOX        " 분류 폴더 ",IDC_STATIC,3,3,181,126
+    CONTROL         "Tree1",IDC_TREE1,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_EDITLABELS | 
+                    TVS_SHOWSELALWAYS | WS_BORDER | WS_TABSTOP,7,13,136,111
+    GROUPBOX        " 서버 정보 ",IDC_STATIC,3,135,181,97
+    PUSHBUTTON      "삭  제",IDC_BUTTON_DEL,145,108,35,16
+    LTEXT           "서버주소 : ",IDC_STATIC,11,170,35,8
+    LTEXT           "서버이름 :",IDC_STATIC,11,150,33,8
+    LTEXT           "아 이 디  :",IDC_STATIC,11,190,33,8
+    LTEXT           "패스워드 : ",IDC_STATIC,11,212,35,8
+    EDITTEXT        IDC_EDIT_ADD,48,168,95,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_ID,48,188,95,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT_PASS,48,210,95,14,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    WS_DISABLED
+    PUSHBUTTON      "익명접속",IDC_BUTTON_ANO,145,208,35,16,WS_DISABLED
+    PUSHBUTTON      "접  속",IDC_BUTTON_CONNECT,145,186,35,16,WS_DISABLED
+    PUSHBUTTON      "서버 추가",IDC_BUTTON_ADDSERVER,145,88,35,16
+    PUSHBUTTON      "저  장",IDC_BUTTON_SAVE,145,164,35,16,WS_DISABLED
+    LTEXT           "",IDC_STATIC_NAME,49,151,89,10
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 210, 182
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,153,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,153,24,50,14
+    CONTROL         "List1",IDC_LIST_CLIENT,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,7,7,60,50
+    CONTROL         "List2",IDC_LIST_FTP,"SysListView32",WS_BORDER | 
+                    WS_TABSTOP,7,63,60,50
+END
+
+IDD_DIALOG_ADDFTP DIALOG DISCARDABLE  0, 0, 163, 65
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "서버추가"
+FONT 9, "굴림"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,81,43,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,121,44,36,14
+    LTEXT           "추가할 FTP 서버 이름을 입력하십시오.",IDC_STATIC,34,7,
+                    122,8
+    EDITTEXT        IDC_EDIT1,35,21,121,14,ES_AUTOHSCROLL
+    ICON            IDI_ICON_ADDFTP,IDC_STATIC,7,7,18,21
+END
+
+IDD_DIALOG_FILE DIALOG DISCARDABLE  0, 0, 199, 145
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "전송"
+FONT 9, "굴림"
+BEGIN
+    PUSHBUTTON      "취소",IDCANCEL,142,123,50,14
+    LTEXT           "FILENAME",IDC_STATIC_FILENAME,8,54,180,8
+    GROUPBOX        "상태",IDC_STATIC,7,82,185,38
+    LTEXT           "FTP & SERVER",IDC_STATIC_SERVER,41,94,139,8
+    LTEXT           "SERVER",IDC_STSTIC_ADD,41,106,130,8
+    CONTROL         "Animate1",IDC_ANIMATE,"SysAnimate32",ACS_TRANSPARENT | 
+                    WS_TABSTOP,7,9,183,28
+    LTEXT           "서버명 : ",IDC_STATIC,14,94,28,8
+    LTEXT           "경   로 :",IDC_STATIC,14,106,26,8
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,69,185,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "MyFtp MFC 응용 프로그램\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "MyFtp\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "MyFtp.EXE\0"
+            VALUE "ProductName", "MyFtp 응용 프로그램\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_DIALOG_CONNECT, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 184
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 254
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 175
+    END
+
+    IDD_DIALOG_ADDFTP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_DIALOG_FILE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 138
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_AVI_DOWN            AVI     DISCARDABLE     "res\\Down.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "MyFtp\n\nMyFtp\n\n\nMyFtp.Document\nMyFtp Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "MyFtp"
+    AFX_IDS_IDLEMESSAGE     "준비"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "창의 크기를 변경합니다"
+    AFX_IDS_SCMOVE          "창의 위치를 변경합니다"
+    AFX_IDS_SCMINIMIZE      "창을 아이콘으로 줄여서 표시합니다"
+    AFX_IDS_SCMAXIMIZE      "창을 최대 크기로 확장합니다"
+    AFX_IDS_SCNEXTWINDOW    "다음 문서 창으로 전환합니다"
+    AFX_IDS_SCPREVWINDOW    "이전 문서 창으로 전환합니다"
+    AFX_IDS_SCCLOSE         "현재 열린 창을 닫고 문서를 저장할 것인지를 묻습니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "창을 원래 크기로 복원합니다"
+    AFX_IDS_SCTASKLIST      "작업 목록을 활성화합니다"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "인쇄 미리 보기 모드를 닫습니다\n미리 보기 취소"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE 18, 1
+#pragma code_page(949)
+#endif //_WIN32
+#include "res\MyFtp.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.kor\afxres.rc"          // Standard components
+#include "l.kor\afxprint.rc"        // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

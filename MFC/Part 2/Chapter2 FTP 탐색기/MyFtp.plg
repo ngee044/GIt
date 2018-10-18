@@ -1,0 +1,81 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MyFtp - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/MyFtp.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\2-2장 FTP 탐색기\MyFtp.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyFtp.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\ClientView.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\dlgAddFtp.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\DlgConnect.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\DlgFile.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\FileFindEx.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\ListCtrlEx.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\MainFrm.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\MyFtp.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\MyFtpDoc.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\MyFtpView.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\StatusView.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\SystemImageList.cpp"
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\Test.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD0.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD1.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MyFtp.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\2-2장 FTP 탐색기\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD1.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD2.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MyFtp.pdb" /machine:I386 /out:"Release/MyFtp.exe" 
+".\Release\ClientView.obj"
+".\Release\dlgAddFtp.obj"
+".\Release\DlgConnect.obj"
+".\Release\DlgFile.obj"
+".\Release\FileFindEx.obj"
+".\Release\ListCtrlEx.obj"
+".\Release\MainFrm.obj"
+".\Release\MyFtp.obj"
+".\Release\MyFtpDoc.obj"
+".\Release\MyFtpView.obj"
+".\Release\StatusView.obj"
+".\Release\StdAfx.obj"
+".\Release\SystemImageList.obj"
+".\Release\Test.obj"
+".\Release\MyFtp.res"
+]
+Creating command line "link.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSPD2.tmp""
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ClientView.cpp
+dlgAddFtp.cpp
+DlgConnect.cpp
+DlgFile.cpp
+FileFindEx.cpp
+ListCtrlEx.cpp
+MainFrm.cpp
+MyFtp.cpp
+MyFtpDoc.cpp
+MyFtpView.cpp
+StatusView.cpp
+SystemImageList.cpp
+Test.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MyFtp.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

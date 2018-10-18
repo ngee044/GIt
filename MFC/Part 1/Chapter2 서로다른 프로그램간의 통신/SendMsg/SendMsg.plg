@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SendMsg - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/SendMsg.res" /d "NDEBUG" /d "_AFXDLL" "F:\책(vc++)\프로그램\1-2장 서로다른 프로그램간의 통신\SendMsg\SendMsg.rc"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP53.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SendMsg.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-2장 서로다른 프로그램간의 통신\SendMsg\SendMsg.cpp"
+"F:\책(vc++)\프로그램\1-2장 서로다른 프로그램간의 통신\SendMsg\SendMsgDlg.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP53.tmp"" 
+Creating temporary file "D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP54.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/SendMsg.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\책(vc++)\프로그램\1-2장 서로다른 프로그램간의 통신\SendMsg\StdAfx.cpp"
+]
+Creating command line "cl.exe @"D:\DOCUME~1\장중한\LOCALS~1\Temp\RSP54.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/SendMsg.pdb" /machine:I386 /out:"Release/SendMsg.exe"  ".\Release\SendMsg.obj" ".\Release\SendMsgDlg.obj" ".\Release\StdAfx.obj" ".\Release\SendMsg.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SendMsg.cpp
+SendMsgDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SendMsg.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

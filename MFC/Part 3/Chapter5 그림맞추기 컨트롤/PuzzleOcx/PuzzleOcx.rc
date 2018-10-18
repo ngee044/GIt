@@ -1,0 +1,221 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "1 TYPELIB ""PuzzleOcx.tlb""\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "PuzzleOcx ActiveX Control Module\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "PuzzleOcx\0"
+            VALUE "LegalCopyright", "Copyright (C) 2001\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "PuzzleOcx.OCX\0"
+            VALUE "ProductName", "PuzzleOcx ActiveX Control Module\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "OLESelfRegister", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ABOUTDLL            ICON    DISCARDABLE     "PuzzleOcx.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_PUZZLEOCX           BITMAP  DISCARDABLE     "PuzzleOcxCtl.bmp"
+IDB_HINT                BITMAP  DISCARDABLE     "res\\bitmap_h.bmp"
+IDB_MAIN                BITMAP  DISCARDABLE     "res\\choi.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX_PUZZLEOCX DIALOG DISCARDABLE  34, 22, 260, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About PuzzleOcx Control"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDI_ABOUTDLL,IDC_STATIC,10,10,20,20
+    LTEXT           "PuzzleOcx Control, Version 1.0",IDC_STATIC,40,10,170,8
+    LTEXT           "Copyright (C) 2001, ",IDC_STATIC,40,25,170,8
+    DEFPUSHBUTTON   "OK",IDOK,221,7,32,14,WS_GROUP
+END
+
+IDD_PROPPAGE_PUZZLEOCX DIALOG DISCARDABLE  0, 0, 250, 62
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "TODO: Place controls to manipulate properties of PuzzleOcx Control on this dialog.",
+                    IDC_STATIC,7,25,229,16
+END
+
+IDD_DIALOG_GAME DIALOGEX 0, 0, 283, 221
+STYLE WS_CHILD | WS_VISIBLE
+EXSTYLE WS_EX_APPWINDOW
+FONT 9, "굴림"
+BEGIN
+    GROUPBOX        "",IDC_STATIC,3,0,184,218,NOT WS_VISIBLE
+    GROUPBOX        "",IDC_STATIC,191,0,86,117
+    GROUPBOX        "",IDC_STATIC,191,123,86,95
+    LTEXT           "클릭수 :",IDC_STATIC,203,155,26,8
+    LTEXT           "시   간 :",IDC_STATIC,203,175,26,8
+    LTEXT           "힌트보기",IDC_STATIC,195,10,28,8
+    LTEXT           "게임진행상황",IDC_STATIC,194,133,42,8
+    LTEXT           "퍼센트 :",IDC_STATIC,203,193,26,8
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,225,13,49,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,241,137,32,1
+    LTEXT           "0 번",IDC_STATIC_CLICK,235,155,32,8
+    LTEXT           "0 초",IDC_STATIC_TIME,235,175,32,8
+    LTEXT           "0 %",IDC_STATIC_PERCENT,235,193,32,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX_PUZZLEOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 253
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_PROPPAGE_PUZZLEOCX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 243
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_DIALOG_GAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 279
+        BOTTOMMARGIN, 218
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PUZZLEOCX           "PuzzleOcx Control"
+    IDS_PUZZLEOCX_PPG       "PuzzleOcx Property Page"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PUZZLEOCX_PPG_CAPTION "General"
+END
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+1 TYPELIB "PuzzleOcx.tlb"
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
