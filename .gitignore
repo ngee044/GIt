@@ -11,3 +11,10 @@
 *.log
 *.apk
 *.db
+*.vcxproj
+*.exe
+*.dll
+*.obj
+*.idb
+*.pdb
+*.tlog

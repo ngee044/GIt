@@ -39,6 +39,7 @@
     <ClCompile Include="Main\ASE.cpp">
       <Filter>Main</Filter>
     </ClCompile>
+    <ClCompile Include="DirectShow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main\CharacterClass.h">
@@ -80,5 +81,6 @@
     <ClInclude Include="Main\ASE.h">
       <Filter>Main</Filter>
     </ClInclude>
+    <ClInclude Include="DirectShow.h" />
   </ItemGroup>
 </Project>

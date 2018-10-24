@@ -35,6 +35,7 @@ void CD3DFrame::Destroy()
 	CRenderer::Destroy();
 	delete CD3DFrame::Get()->m_pCamera;
 	delete CD3DFrame::Get()->m_pCharacter;
+	delete CD3DFrame::Get()->m_vChart[1];
 	//랜더클래스 삭제
 	CD3DFrame* pFrame = CD3DFrame::Get();
 
@@ -86,10 +87,20 @@ void CD3DFrame::Init()
 	m_pCamera->InitCamera(CWindowFrame::Get()->GethWnd());
 
 	m_pCharacter = new CharacterClass();
-	m_pCharacter->InitCharacter(m_pd3dDevice, "calix_stand.ASE", "calix_");
+	auto npc_chart = new CharacterClass();
 
+	m_pCharacter->m_id = 0;
+	m_pCharacter->InitCharacter(m_pd3dDevice, "calix_stand.ASE", "calix_");
 	m_pCharacter->m_Pos._42 = -20.0f;
 	m_pCharacter->m_Pos._41 = 10.0f;
+
+	npc_chart->m_id = 1;
+	npc_chart->InitCharacter(m_pd3dDevice, "mayel_3rd_stand.ASE", "mayel_3rd_plus");
+	npc_chart->m_Pos._42 = -20.0f;
+	npc_chart->m_Pos._41 = 10.0f;
+
+	m_vChart.push_back(m_pCharacter);
+	m_vChart.push_back(npc_chart);
 
 	m_pKeyInfo = new sKeyInfo();
 
@@ -145,8 +156,13 @@ void CD3DFrame::Update()
 
 	if (NULL != m_pCharacter)
 	{
+		m_pKeyInfo->CheckNomalKeyList();
+		m_pKeyInfo->CheckDirectionKeyList();
+
 		m_pCharacter->UpdateProcessKey(m_pKeyInfo);
-		m_pCharacter->Update();
+		
+		for(auto it = m_vChart.begin(); it != m_vChart.end(); ++it )
+			(*it)->Update();
 	}
 }
 //랜더함수를 불러와 랜더링
@@ -177,8 +193,11 @@ void CD3DFrame::Run()
 	//메시업데이트 및 랜더링
 
 	if (NULL != m_pCharacter)
-		m_pCharacter->Render();
-
+	{
+		//m_pCharacter->Render();
+		for (auto it = m_vChart.begin(); it != m_vChart.end(); ++it)
+			(*it)->Render();
+	}
 	if (NULL != m_pMap)
 		m_pMap->Render();
 
@@ -220,7 +239,6 @@ int CD3DFrame::ProcessMouse(void)
 	m_pd3dDevice->SetTransform( D3DTS_VIEW, pmatView );			// 카메라 행렬 셋팅
 
 	// 마우스를 윈도우의 중앙으로 초기화
-#if 0
 	SetCursor( NULL );	// 마우스를 나타나지 않게 않다.
 	RECT	rc;
 	GetClientRect( CWindowFrame::Get()->GethWnd(), &rc );
@@ -230,6 +248,6 @@ int CD3DFrame::ProcessMouse(void)
 	SetCursorPos( pt.x, pt.y );
 	m_dwMouseX = pt.x;
 	m_dwMouseY = pt.y;
-#endif
+
 	return 0;
 }

@@ -175,6 +175,7 @@ public:
 
 	CAse*	m_pAse;
 
+	int		m_id;
 	bool	m_bMove;
 
 	bool    m_ATT;

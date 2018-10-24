@@ -5,6 +5,14 @@
 #pragma once
 #include "Common.h"
 
+struct MY_VERTEX
+{
+	enum { FVF = D3DFVF_XYZ | D3DFVF_TEX1};
+	float px, py, pz;
+	float tu, tv;
+};
+
+
 
 class CameraClass
 {
@@ -24,6 +32,10 @@ private:
 
 	D3DXMATRIXA16	m_matView;		// 카메라 행렬
 	D3DXMATRIXA16	m_matBill;		// 빌보드 행렬(카메라의 역행렬)
+
+	//빌보드
+	bool m_bBillboard;
+	LPDIRECT3DTEXTURE9 m_pTexBillboard[3];
 
 public:
 	void Update();
@@ -45,6 +57,8 @@ public:
 	HWND GetHwnd(){return m_hWnd;};
 
 	LPDIRECT3DDEVICE9 GetDevice(){return m_pd3d;};
+
+	void DrawBillboard();
 
 	CameraClass(void);
 	~CameraClass(void);

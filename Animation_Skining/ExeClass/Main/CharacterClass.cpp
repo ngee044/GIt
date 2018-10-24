@@ -916,7 +916,8 @@ void CharacterClass::RUN_ActionProcess()
 }//뛰기상태 처리
 void CharacterClass::ATT_ActionProcess()
 {
-	cKeyMgr* pKeyMgr=cKeyMgr::GetKeyMgr();
+	cKeyMgr *pKeyMgr = cKeyMgr::CreateKeyMgr();
+	pKeyMgr=cKeyMgr::GetKeyMgr();
 
 	if(m_AttIdle==true)
 	{

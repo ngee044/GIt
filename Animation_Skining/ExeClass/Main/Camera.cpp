@@ -37,6 +37,62 @@ void CameraClass::Update()
 	}
 }
 
+void CameraClass::DrawBillboard()
+{
+	m_pd3d->SetRenderState(D3DRS_ALPHABLENDENABLE, TRUE);
+	m_pd3d->SetRenderState(D3DRS_SRCBLEND, D3DBLEND_SRCALPHA);
+	m_pd3d->SetRenderState(D3DRS_DESTBLEND, D3DBLEND_INVSRCALPHA);
+	m_pd3d->SetRenderState(D3DRS_ALPHATESTENABLE, TRUE);
+	m_pd3d->SetRenderState(D3DRS_ALPHAREF, 0x08);
+	m_pd3d->SetRenderState(D3DRS_ALPHAFUNC, D3DCMP_GREATEREQUAL);
+
+	MY_VERTEX vtx[4] =
+	{
+		{-1, 0, 0, 0, 1},
+		{-1, 4, 0, 0, 0},
+		{1, 0, 0, 1, 1 },
+		{1, 4, 0, 1, 0 }
+	};
+	
+	m_pd3d->SetTexture(1, NULL);
+	m_pd3d->SetFVF(MY_VERTEX::FVF);
+
+	if (m_bBillboard)
+	{
+		m_matBill._11 = m_matView._11;
+		m_matBill._13 = m_matView._13;
+		m_matBill._31 = m_matView._31;
+		m_matBill._33 = m_matView._33;
+		D3DXMatrixInverse(&m_matBill, NULL, &m_matBill);
+	}
+
+	for (int z = 0; z <= -40; z += 5) //좌표를 바뀌어가면서 찍는다
+	{
+		for (int x = 40; x >= 0; x -= 5)
+		{
+			m_matBill._41 = x - 20;
+			m_matBill._42 = 0;
+			m_matBill._43 = z - 20;
+			m_pd3d->SetTexture(0, m_pTexBillboard[(x + z) % 4]);
+
+			if ((x + z) % 4 == 3)
+			{
+				//vtx[0].uv = tblUV[nStep][0];
+				//vtx[1].uv = tblUV[nStep][1];
+				//vtx[2].uv = tblUV[nStep][2];
+				//vtx[3].uv = tblUV[nStep][3];
+				//m_pd3d->SetTransform(D3DTS_WORLD, &m_matBill);
+				//m_pd3d->DrawIndexedPrimitiveUP(D3DPT_TRIANGLESTRIP, 2, vtx, sizeof(MY_VERTEX);
+			}
+		}
+	}
+
+	m_pd3d->SetRenderState(D3DRS_ZWRITEENABLE, TRUE);
+	m_pd3d->SetRenderState(D3DRS_ALPHABLENDENABLE, FALSE);
+	m_pd3d->SetRenderState(D3DRS_ALPHATESTENABLE, FALSE);
+	m_pd3d->SetTransform(D3DTS_WORLD, &m_matView);
+}
+
 /// 카메라 행렬을 생성하기위한 기본 벡터값들을 설정한다.
 D3DXMATRIXA16*	CameraClass::SetView( D3DXVECTOR3* pvEye,D3DXVECTOR3* pvLookat,D3DXVECTOR3* pvUp)
 {

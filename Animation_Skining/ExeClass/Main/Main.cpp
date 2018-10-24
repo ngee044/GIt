@@ -7,6 +7,7 @@ INT WINAPI WinMain(HINSTANCE hInstance,HINSTANCE,LPSTR,int)
 	//积己
 	CMainFrame::Create(hInstance);
 
+	CMainFrame::Get()->CreateDxShow();
 	//俊矾内靛府畔
 	iExitCode = CMainFrame::Get()->Run();
 

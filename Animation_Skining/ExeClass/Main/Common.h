@@ -11,6 +11,17 @@
 #include <ctime>
 
 #include "TextureContainer.h"
+#include <map>
+
+using namespace std;
+
+#if 0
+#include "fmod.h"
+#include "fmod_errors.h"
+#include "fmod_dsp.h"
+#include "fmod_codec.h"
+#include "fmod_output.h"
+#endif
 
 //#define SCREEN_WIDTH    800 // 화면의 가로 크기.(float)SCREEN_WIDTH/SCREEN_HEIGHT
 //#define SCREEN_HEIGHT   600 // 화면의 세로 크기.

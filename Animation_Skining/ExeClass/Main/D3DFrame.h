@@ -6,7 +6,7 @@
 #include "Camera.h"
 #include "CharacterClass.h"
 #include "KeyMgr.h"
-
+#include <vector>
 #include "MapClass.h"
 
 class CD3DFrame
@@ -21,6 +21,8 @@ protected:
 
 	sKeyInfo*			m_pKeyInfo;
 	CharacterClass* m_pCharacter;
+	std::vector<CharacterClass*> m_vChart;
+	std::map<const int ,CharacterClass*> m_mChart;
 
 	MapClass*	m_pMap;
 

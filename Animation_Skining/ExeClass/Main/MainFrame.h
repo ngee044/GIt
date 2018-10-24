@@ -4,8 +4,11 @@
 
 //d3d 전체관리 클래스 및 윈도우 클래스를 관리하여 최종적으로 출력
 
+class DirectShow;
+
 class CMainFrame
 {
+	DirectShow *m_pDxshow;
 protected:
 	MSG msg;
 	CMainFrame();
@@ -24,4 +27,6 @@ public:
 	~CMainFrame();
 	//메세지전달함수
 	int Run();
+	void CreateDxShow();
+	void FModSoundInit();
 };

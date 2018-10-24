@@ -54,8 +54,6 @@ bool sKeyInfo::CheckKey(int vKey)
 	if( GetAsyncKeyState( vKey  )  )
 	{Check=true;}
 
-
-
 	return Check;
 }
 
@@ -68,10 +66,7 @@ bool sKeyInfo::CheckKeyA(int vKey)
 	if( GetAsyncKeyState(' ') || GetAsyncKeyState(VK_RETURN))
 	{Check=true;}
 	//
-
-
 	return Check;
-
 }
 
 
